@@ -2,7 +2,7 @@
 layout: post
 title: 📖 [Theory] 💻 인증(authentication) & 인가 (authorization)
 category : Theory
-tags: [theory, security]
+tags: [theory, security , authentication , authorization]
 ---
 # 💻 🔐 인증(authentication) & 인가 (authorization)
 
