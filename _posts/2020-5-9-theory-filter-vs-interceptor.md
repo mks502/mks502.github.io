@@ -14,7 +14,7 @@ tags: [theory, security]
     
 ## 🔑 Filter VS Interceptor
 
-![spring-request-lifecycle](/images/2020-5-9/spring-request-lifecycle.JPG)
+![spring-request-lifecycle](/images/2020-5-9/spring-request-lifecycle.jpg)
 
 
 
