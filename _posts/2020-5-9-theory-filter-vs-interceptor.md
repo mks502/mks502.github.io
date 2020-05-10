@@ -20,9 +20,9 @@ tags: [theory, security]
 
 차이점| Filter | Interceptor |
 :------|:---------:|:---------:| 
-스펙|J2EE 표준|Spring Framework|
-등록|Web Application|Spring context|
-실행 시점|DispatcherServlet 앞 | DispatcherServlet 과 Handler 사이 |
+스펙|　J2EE 표준　|　Spring Framework　|
+등록|　Web Application　|　Spring context　|
+실행 시점|　DispatcherServlet 앞　|　　DispatcherServlet ,Handler 사이　|
 실행 순서|1|2
 
 ## 정리
