@@ -5,7 +5,7 @@ category : Theory
 tags: [theory, java, collection]
 ---
 
-# 💻 Transaction isolation level
+# 💻 Java Collection
 
     안녕하세요. 👋
     
@@ -100,6 +100,4 @@ tags: [theory, java, collection]
 
 Reference
 
-https://lng1982.tistory.com/287
-
-http://www.dbguide.net/db.db?cmd=view&boardUid=148216&boardConfigUid=9&boardIdx=138&boardStep=1
+https://gangnam-americano.tistory.com/41
