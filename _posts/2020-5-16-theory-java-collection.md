@@ -23,6 +23,10 @@ tags: [theory, java, collection]
     
 
 ## Collection 의 종류
+
+![collection](/images/2020-5-16/collection.png)
+
+
     Collection 은 List, Set , Queue 로 크게 3가지 상위 인터페이스로 분류할 수 있습니다.
     Map의 경우에는 Collection 인터페이스를 상속받고 있지는 않지만 Collection으로 분류됩니다.
     
