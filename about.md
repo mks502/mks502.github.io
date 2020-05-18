@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+안녕하세요.
 
-### More Information
+KyuSeok
 
-A place to include any other types of information that you'd like to include about yourself.
+githubio
 
+블로그입니다
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[fhxm122@gmail.com](mailto:fhxm122@gmail.com)
