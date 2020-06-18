@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 📖 [Java] 💻 클라우드 컴퓨팅과 IaaS PaaS SaaS 란
+title: 📖 [Theory] 💻 클라우드 컴퓨팅과 IaaS PaaS SaaS 란
 category : Theory
 tags: [theory, cloud computing, Iaas, PaaS, SaaS]
 ---
