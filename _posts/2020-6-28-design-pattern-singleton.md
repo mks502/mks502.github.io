@@ -5,7 +5,7 @@ category : Theory
 tags: [theory, Design Pattern, Singletone]
 ---
 
-# 💻 CI / CD
+# 💻 [Design Pattern] 싱글톤 패턴
 
     안녕하세요. 👋
     
