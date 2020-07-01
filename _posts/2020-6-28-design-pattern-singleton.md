@@ -36,6 +36,7 @@ tags: [theory, Design Pattern, Singletone]
 ## 2. 싱글톤 패턴 구현 방법
 
 1) Eager Init
+
 ```java
 public class EagerInit {
     private static EagerInit uniqueInstance = new EagerInit();
@@ -56,6 +57,7 @@ public class EagerInit {
     Eager Init 방식은 Thread-Safe 하지 않습니다.
     Singletone 구현 시 중요한 점이, 멀티 스레딩 환경에서도 동작 가능하게끔 구현해야 한다는 것입니다.
     즉, Thread-safe 가 보장되어야 합니다.
+    
 2) Lazy init
 
 ```java
