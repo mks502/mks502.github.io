@@ -43,8 +43,10 @@ tags: [theory, server, storage]
  Scale-out은 Scale-up에 비해 비용이 저렴하고 확장이 유연합니다.
  
  수평 스케일로 불리기도 합니다.
- 
-#### * Scale-up 단점
+
+
+#### * Scale-out 단점
+
  
     Scale-out 의 단점은 여러 노드를 연결해 병렬 컴퓨팅 환경을 구성하고
     유지하기 위해 아키텍처에 대한 높은 이해도가 요구됩니다. 그리고 또한
