@@ -17,7 +17,7 @@ tags: [theory, server, storage]
     
     오늘은 서버 확장의 두가지 방법인 Scale-up 과 Scale-out 에 대해 알아보겠습니다.
         
-# 💻 1. Scale-up 이란?
+## 1. Scale-up 이란?
 
    Scale-up 이란 기존의 서버 자체의 성능을 높이는 것을 말합니다.
    
@@ -29,13 +29,14 @@ tags: [theory, server, storage]
    
    수직 스케일로 불리기도 합니다.
    
-#### Scale-up 단점
+#### * Scale-up 단점
     
     Scale-up의 단점으로는 스토리지 컨트롤러의 확장성 한계의 문제, 성능 그리고 용량 확장 제한에
     다 다른 경우에 새 시스템을 추가해야되는데 이때 발생하는 마이그레이션 비용 등이 있습니다.
     
+-------------
 
-## Scale-out 이란?
+## 2. Scale-out 이란?
 
  Scale-out 이란 서버의 대수를 늘려서 처리 능력을 향상 시키는 것을 말합니다.
  
@@ -43,14 +44,17 @@ tags: [theory, server, storage]
  
  수평 스케일로 불리기도 합니다.
  
- #### Scale-out 단점
+ #### * Scale-out 단점
  
     Scale-out 의 단점은 여러 노드를 연결해 병렬 컴퓨팅 환경을 구성하고
     유지하기 위해 아키텍처에 대한 높은 이해도가 요구됩니다. 그리고 또한
     여러 노드에 트래픽을 균등하게 분산시키기 위해 로드 밸런싱 (load balancing)이
     필요하고 노드를 확장할수록 문제 발생의 잠재 원인도 늘어납니다. 
 
-## Scale-up , Scale-out 정리
+
+---------------
+
+## 3. Scale-up , Scale-out 정리
 
 ![UNCOMMITTED](/images/2020-7-7/scaleup_scaleout_comparison.png)
 
