@@ -44,7 +44,7 @@ tags: [theory, server, storage]
  
  수평 스케일로 불리기도 합니다.
  
- #### * Scale-out 단점
+#### * Scale-up 단점
  
     Scale-out 의 단점은 여러 노드를 연결해 병렬 컴퓨팅 환경을 구성하고
     유지하기 위해 아키텍처에 대한 높은 이해도가 요구됩니다. 그리고 또한
@@ -56,7 +56,7 @@ tags: [theory, server, storage]
 
 ## 3. Scale-up , Scale-out 정리
 
-![UNCOMMITTED](/images/2020-7-7/scaleup_scaleout_comparison.png)
+![comparison](/images/2020-7-7/scaleup_scaleout_comparison.png)
 
     Scale-up 과 Scale-out 둘다 서버 확장을 위한 방법이며
     두 방식 중 어떠한 방식이 더욱 좋다라기 보다는 주어진 상황에 따라 어떤 방식을 채택해
