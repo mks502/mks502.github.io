@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 📖 [Theory] 💻 Filter & Interceptor
+title: 📖 [Spring Framework] 💻 Filter VS Interceptor
 category : Theory
-tags: [theory, security]
+tags: [theory, security, spring]
 ---
 
 # 💻 🔐 Filter & Interceptor
