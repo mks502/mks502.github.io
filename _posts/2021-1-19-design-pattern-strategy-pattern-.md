@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 📖 [Design Pattern] 💻 Strategy Pattern
+title: 📖 [디자인패턴] 💻 Strategy Pattern (전략적 패턴)
 category : Design Pattern
 tags: [design pattern, strategy]
 ---
