@@ -2,7 +2,7 @@
 layout: post
 title: 📖 [백준알고리즘 풀이] Q.2003 수들의 합 2 풀이 투 포인터 방식 - java
 category : Algorithm
-tags: [Algorithm,boj,brute,brute force,backtracking]
+tags: [Algorithm,boj,prefix sum, two pointer]
 ---
 # 📖 문제
 https://www.acmicpc.net/problem/2003
