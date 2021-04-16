@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Spring] 💻 스프링 핵심원리 - 1. 객체 지향 설계와 스프링
+title: 📖 [Spring] 💻 스프링 핵심원리 - 1. 객체 지향 설계와 스프링
 category : Spring
 tags: [spring, spring core, core]
 ---
