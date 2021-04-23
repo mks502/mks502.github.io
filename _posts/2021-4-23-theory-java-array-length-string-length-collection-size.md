@@ -2,7 +2,7 @@
 layout: post
 title: 📖 [Java] 💻 length 와 length() 그리고 size() 차이 
 category : Theory
-tags: [theory, java, inheritance]
+tags: [theory, java]
 ---
 
 # 💻 Java length 와 length() 그리고 size() 차이 
@@ -23,24 +23,25 @@ tags: [theory, java, inheritance]
 
 ## length , length() , size() 의 구분
 
-1. length
+1.length
 
- - Arrays(int[], double[], String[] ...)
-
- - length 는 배열의 길이를 나타냅니다.
+- Arrays(int[], double[], String[] ...)
  
- - ※ 배열의 길이는 할당 될 때 정해지는 상수이므로 메소드가 아닌 필드로 제공됩니다.
+- length 는 배열의 길이를 나타냅니다.
+ 
+- ※ 배열의 길이는 할당 될 때 정해지는 상수이므로 메소드가 아닌 필드로 제공됩니다.
 
-2. length()
+2.length()
 
- - String related Object(String, StringBuilder ...)
+- String related Object(String, StringBuilder ...)
+ 
+- length()는 문자열의 길이를 알려주는 메소드입니다.
 
- - length()는 문자열의 길이를 알려주는 메소드입니다.
+3.size()
 
-3. size()
- - Collection Object(ArrayList, Set ...)
+- Collection Object(ArrayList, Set ...)
 
- - size()는 컬렉션프레임워크 타입의 길이를 알려주는 메소드입니다.
+- size()는 컬렉션프레임워크 타입의 길이를 알려주는 메소드입니다.
  
 ```java
 import java.util.ArrayList;
