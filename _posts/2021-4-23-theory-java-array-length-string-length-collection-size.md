@@ -25,7 +25,7 @@ tags: [theory, java, inheritance]
 
 1. length
 
- - Arrays(int[], double[], String[])
+ - Arrays(int[], double[], String[] ...)
 
  - length 는 배열의 길이를 나타냅니다.
  
@@ -33,12 +33,12 @@ tags: [theory, java, inheritance]
 
 2. length()
 
- - String related Object(String, StringBuilder etc)
+ - String related Object(String, StringBuilder ...)
 
  - length()는 문자열의 길이를 알려주는 메소드입니다.
 
 3. size()
- - Collection Object(ArrayList, Set etc)
+ - Collection Object(ArrayList, Set ...)
 
  - size()는 컬렉션프레임워크 타입의 길이를 알려주는 메소드입니다.
  
@@ -72,7 +72,3 @@ class Main {
 감사합니다. 🙏
 
 -------------------------------------------------
-
-Reference
-
-https://enter.tistory.com/108
