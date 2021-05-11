@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[후기] 📖 우아한 테크 캠프 Pro 프리 코스 후기"
+title: "📖 우아한 테크 캠프 Pro 프리 코스 후기"
 category : Theory
 tags: [study, woowahan, pre-course]
 ---
