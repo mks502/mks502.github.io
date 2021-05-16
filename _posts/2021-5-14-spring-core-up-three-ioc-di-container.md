@@ -21,11 +21,11 @@ tags: [spring, spring core, core]
     
     세번째 포스트입니다.
     
-이전 [두번째 포스트](2021-4-29-spring-core-up-two.md)에서 직접 순수 자바만을 이용해 객체 지향 원리를 적용해 프로젝트를 개발해보았습니다.
+이전 [두번째 포스트](https://mks502.github.io/spring-core-up-two/)에서 직접 순수 자바만을 이용해 객체 지향 원리를 적용해 프로젝트를 개발해보았습니다.
 이 과정에서 왜 IoC, DI, 컨테이너 같은 개념들이 필요해지고 등장하게 되었는지를 알 수 있었습니다.
 이번 세번째 포스트에서는 앞선 과정에서 등장하게 된 IoC, DI, 컨테이너에 대해 정리하는 시간입니다.  
 
-[두번째 포스트](2021-4-29-spring-core-up-two.md) 와 함께 보시면 이해하기가 더 쉬울 것 입니다.
+[두번째 포스트](https://mks502.github.io/spring-core-up-two/) 와 함께 보시면 이해하기가 더 쉬울 것 입니다.
  
         
 ## 1. 제어의 역전 IoC (Inversion of Control)
@@ -103,7 +103,7 @@ OrderServiceImpl 은 MemberRepository , DiscountPolicy 에 의존한다는 것�
 스프링 핵심원리 포스트
 
 [1. 객체 지향 설계와 스프링](https://mks502.github.io/spring-core-up-first/)    
-[2. 스프링 핵심 원리 이해 1,2](2021-4-29-spring-core-up-two.md)
+[2. 스프링 핵심 원리 이해 1,2](https://mks502.github.io/spring-core-up-two/)
 
 -------------------------------------------------
 
