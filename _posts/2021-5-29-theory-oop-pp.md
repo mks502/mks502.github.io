@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Theory] 💻 절차지향 객체지향? Procedural Programming 과 객체지향 프로그래밍
+title: "[Theory] 💻 절차지향 객체지향? Procedural Programming 과 객체지향 프로그래밍"
 category : Theory
 tags: [theory,pp,oop]
 ---
@@ -101,5 +101,7 @@ Procedural Programming 에서 Procedural <b>'절차적'</b> 으로 번역해버�
 Reference
 
 <https://pjh3749.tistory.com/244>
+
 <https://jamie95.tistory.com/121>
+
 <https://programmingnote.tistory.com/14?category=801790>
