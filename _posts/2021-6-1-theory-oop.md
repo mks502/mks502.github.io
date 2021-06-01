@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "💻 [Theory] 객체지향 프로그래밍이란??
+title: "💻 [Theory] 객체지향 프로그래밍이란??"
 category : Theory
 tags: [theory, oop]
 ---
