@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Theory] 💻 절차지향 객체지향? Procedural Programming 과 객체지향 프로그래밍"
+title: "💻 [Theory] 절차지향 객체지향? Procedural Programming 과 객체지향 프로그래밍"
 category : Theory
 tags: [theory,pp,oop]
 ---
