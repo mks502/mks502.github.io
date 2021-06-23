@@ -2,7 +2,7 @@
 layout: post
 title: "💻 [Theory] MySQL InnoDB와 MyISAM"
 category : Theory
-tags: [theory, database, db, index]
+tags: [theory, database, mysql, InnoDB,MyISAM]
 ---
 
 # 💻 [Theory] MySQL InnoDB와 MyISAM
@@ -34,11 +34,11 @@ tags: [theory, database, db, index]
 
 MySQL 5.5 이후의 기본 엔진으로 트랜잭션 지원, 동시성에 높은 성능, 외래키 지원 등 여러 기능들이 추가 되었다.
 
-- ACID 트랜잭션 지원
-- 데이터 무결성에 대한 보장
+- <b>ACID 트랜잭션 지원</b>
+- <b>데이터 무결성에 대한 보장</b>
 - MyISAM과 비슷하지만 ORACLE처럼 많은 기능을 지원한다.
     - commit, rollback, 장애 복구, row-level locking, 외래키 등
-- row level locking 지원
+- <b>row level locking 지원</b>
     - 트랜잭션 처리가 필요한 대용량의 데이터에 유리한 점이 있어서, 사용자의 CRUD가 많은 서비스에 유리하다.
 - 다수의 사용자 동시접속과 퍼포먼스가 증가하여 대용량 데이터를 처리할 때 최대의 퍼포먼스를 내도록 설계
     - 동시적으로 요청이 많이오는 높은 퍼포먼스가 필요한 대용량 사이트에 적합
@@ -46,8 +46,8 @@ MySQL 5.5 이후의 기본 엔진으로 트랜잭션 지원, 동시성에 높은
 
 ## 정리
 - 가장 큰 특징으로 <b>트랜잭션의 유무</b>와 <b>locking level의 차이</b>가 있다.
-- InnoDB 엔진은 트랜잭션 처리가 필요하고 대용량의 데이터를 다루는 부분에서 효율적이고,
-- MyISAM 엔진은 트랜잭션 처리가 필요 없고, Read only 기능이 많은 서비스일수록 효율적이다.
+- InnoDB 엔진은 <b>트랜잭션 처리가 필요</b>하고 <b>대용량의 데이터를 다루는 부분에서 효율적</b>이다.
+- MyISAM 엔진은 <b>트랜잭션 처리가 필요 없고</b>, <b>Read only 기능이 많은 서비스일수록 효율적</b>이다.
 - 한줄로 정리하면, InnoDB는 데이터의 변화가 많은 서비스에, MyISAM은 SELECT가 많은 서비스에 적합하다 할 수 있다. 
 - 용도에 따라 InnoDB나 MyISAM 스토리지 엔진을 결정하는데, InnoDB와 MyISAM 테이블을 같이 사용할 경우, 조인시 주의해야한다
 
