@@ -61,6 +61,10 @@ new 연산자로 생성한 String 객체는 같은 값이 String Pool에 이미 
 하지만 String의 equals 메소드 같은 경우는 String 객체에서 실제 값인 문자열 자체에 대해 비교를 해준다.
 그렇기 때문에 String 에서 올바르게 문자열이 동일한지를 확인하려면 == 연산 보다는 문자열 자체를 비교하는 equals 메소드를 사용하는 것이 좋다.  
 
+![test2](/images/2021-6-24/test2.JPG)
+
+![result2](/images/2021-6-24/result2.JPG)
+
 ##### 정리
 
 - String 생성 방법은 리터럴 방법과 new 연산 방법이 있다.
